@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model and data files
+models/
+*.pth
+*.pt
+*.h5
+
+# Env
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Streamlit logs
+.streamlit/
+
+# System
+.DS_Store
+
