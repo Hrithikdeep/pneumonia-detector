@@ -129,12 +129,6 @@ venv/
 
 ---
 
-## 📌 Resume / LinkedIn Bullet
-
-> Built a deep learning-based pneumonia detection system from X-ray images using ResNet18 and PyTorch, deployed via Streamlit Cloud and Hugging Face Spaces with Git LFS for large model handling.
-
----
-
 ## 🙌 Author
 
 **Hrithik Deep**  
