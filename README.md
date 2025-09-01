@@ -79,7 +79,7 @@ Upload a chest X-ray and the app will predict Pneumonia or Normal.
 - Go to [streamlit.io/cloud](https://pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)
 - Link your GitHub repo
 - Deploy the `app.py` file
-
+- 
 ### ✅ Hugging Face Spaces
 - Create a new Space using `Streamlit` SDK
 - Upload all files including the model
