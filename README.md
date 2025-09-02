@@ -57,8 +57,7 @@ Epoch 5/5 | Loss: 1.1520 | Accuracy: 0.9981
 
 ## 🌐 Run the Streamlit App
 
-```bash
-streamlit run app.py
+```Demo [https:/(/pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)]
 ```
 
 ---
@@ -76,7 +75,7 @@ Upload a chest X-ray and the app will predict Pneumonia or Normal.
 
 ### ✅ Streamlit Cloud
 - Push all files to GitHub (including `model.pth` using Git LFS)
-- Go to [streamlit.io/cloud](https://pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)
+- Go to [streamlit.io/cloud]https:/(/pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)
 - Link your GitHub repo
 - Deploy the `app.py` file
 - 
