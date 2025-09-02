@@ -17,8 +17,8 @@ a chest X-ray image and get instant Pneumonia prediction with probability scores
 
 Upload a chest X-ray and the app will predict Pneumonia or Normal.
 
-![App Screenshot](<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a39748d0-ebe2-4fc8-83d1-ba6b1d16bf15" />
-)
+![App Screenshot](<img width="800" height="400" alt="Screenshot 2025-09-02 at 3 09 58 PM" src="https://github.com/user-attachments/assets/836ee3dd-ba43-4e2f-9261-7ced4ee8fc7d" />
+
 
 
 ## Features
