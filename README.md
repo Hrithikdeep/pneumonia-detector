@@ -1,29 +1,60 @@
 # 🩺 Pneumonia Detection from Chest X-rays using Deep Learning (ResNet18 + Streamlit)
 
-This is a complete end-to-end medical imaging project that detects **Pneumonia** in chest X-ray images using a Convolutional Neural Network (CNN) with **ResNet18** architecture. The model is trained using PyTorch and deployed via a simple **Streamlit app**.
-
+Detect Pneumonia from chest X-ray images using a ResNet18 CNN model trained with PyTorch and deployed with Streamlit. This end-to-end pipeline covers data preprocessing, model training, evaluation, and real-time predictions.
 ---
+
+
+## Project Demo
+
+Web App Demo:
+[Click here to try the live app](https://pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)
+
+
+GIF Preview:
+a chest X-ray image and get instant Pneumonia prediction with probability scores.
+ 
+ ## 🖼️ App Screenshot
+
+Upload a chest X-ray and the app will predict Pneumonia or Normal.
+
+![App Screenshot](<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a39748d0-ebe2-4fc8-83d1-ba6b1d16bf15" />
+)
+
+
+## Features
+
+✅ Detect Pneumonia vs Normal X-rays
+
+✅ Built with PyTorch (ResNet18)
+
+✅ Real-time Streamlit app for predictions
+
+✅ Modular structure for training, evaluation, and deployment
+
+✅ Ready for cloud deployment (Streamlit Cloud / Hugging Face Spaces
 
 ## 📁 Folder Structure
 
 ```
 pneumonia-detector/
-├── data/                     # Dataset (train/val/test folders inside)
-├── models/                   # Trained model is saved here as model.pth
-├── outputs/                  # (Optional) Store prediction outputs or logs
-├── app.py                    # Main Streamlit app
-├── train_model.py            # Training and evaluation script
-├── requirements.txt          # Required Python packages
-├── README.md                 # Project README
-├── .gitignore                # Git ignore file
-```
+├── data/                     # Dataset (train/val/test)
+├── models/                   # Trained model (model.pth)
+├── outputs/                  # Optional prediction logs or visualizations
+├── app.py                    # Streamlit web app
+├── train_model.py            # Model training & evaluation
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── .gitignore                # Files/folders to ignore
+
 
 ---
 
 ## 🔧 Installation
 
-```bash
+```git clone <YOUR_REPO_URL>
+cd pneumonia-detector
 pip install -r requirements.txt
+
 ```
 
 **requirements.txt should include:**
@@ -34,6 +65,7 @@ streamlit
 Pillow
 scikit-learn
 matplotlib
+
 ```
 
 ---
@@ -57,17 +89,12 @@ Epoch 5/5 | Loss: 1.1520 | Accuracy: 0.9981
 
 ## 🌐 Run the Streamlit App
 
-```Demo [https:/(/pneumonia-detector-hgjojhhexcpeceajgy8pje.streamlit.app/)]
+``streamlit run app.py
+
 ```
 
 ---
 
-## 🖼️ Streamlit App Screenshot
-
-Upload a chest X-ray and the app will predict Pneumonia or Normal.
-
-![App Screenshot](<img width="250" height="150" alt="Screenshot 2025-08-06 at 11 54 37 AM" src="https://github.com/user-attachments/assets/478de1b9-b34a-4335-972f-e46c8e9014d3" />
-)
 
 ---
 
